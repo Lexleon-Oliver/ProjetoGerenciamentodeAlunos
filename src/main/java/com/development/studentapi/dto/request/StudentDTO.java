@@ -31,6 +31,7 @@ public class StudentDTO {
     @CPF
     private String cpf;
 
+    @NotEmpty
     private String birthDate;
 
     @NotEmpty

@@ -61,6 +61,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     private Student verifyIfExists(Long registration){
-        return studentRepository.findById(registration).orElseThrow(StudentNotFoundException::new);
+        return studentRepository.findById(registration)
+                .orElseThrow(StudentNotFoundException::new);
     }
 }
