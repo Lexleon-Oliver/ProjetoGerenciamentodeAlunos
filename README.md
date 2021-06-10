@@ -14,7 +14,7 @@ Durante a desenvolvimento, foram abordados os seguintes tópicos:
 Após executar o projeto, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
 
 ```
-http://localhost:8080/api/v1/people
+http://localhost:8080/api/v1/student
 ```
 
 
